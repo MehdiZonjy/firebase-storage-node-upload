@@ -1,11 +1,8 @@
-const mime = require('mime');
-const path = require('path');
-
-
 const keyFilename="./my-private-api-key-file.json"; //replace this with api key file
 const projectId = "my-project-id-should-go-here" //replace with your project id
 const bucketName = `${projectId}.appspot.com`;
 
+const mime = require('mime');
 const gcs = require('@google-cloud/storage')({
     projectId,
     keyFilename
