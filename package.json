@@ -1,0 +1,23 @@
+{
+  "name": "firebase-storage-demo",
+  "version": "1.0.0",
+  "keywords": [
+    "firebase-storage",
+    "file upload"
+  ],
+  "description": "how to upload a file and manage Firebase Storage",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mehdi Zonjy",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^0.4.0",
+    "mime": "^1.3.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MehdiZonjy/firebase-storage-node-upload"
+  }
+}
